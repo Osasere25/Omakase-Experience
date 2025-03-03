@@ -138,7 +138,7 @@ let saveEl = document.getElementById("save-el")
      countEl.innerText = 0
      count = 0
   }
-  bookingEl = document.getElementById("booking-el")
+  let bookingEl = document.getElementById("booking-el");
 let total =0;
 
   function totalBooking(){
