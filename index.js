@@ -143,7 +143,7 @@ let total =0;
 
   function totalBooking(){
     total += 1;
-    bookingEl.innerText =  bookingEl.innerText + total ;
+    bookingEl.innerText + total ;
     
 
   }
