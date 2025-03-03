@@ -116,7 +116,7 @@
 
 
 let countEl =document.getElementById("count-el")
-let count = 0
+let count = 
 
 function increment(){
      count += 1
@@ -139,11 +139,12 @@ let saveEl = document.getElementById("save-el")
      count = 0
   }
   bookingEl = document.getElementById("booking-el")
+let total =0;
 
   function totalBooking(){
-    let total = 0
-    bookingEl.innerText  += total
-    total += 1
+    total += 1;
+    bookingEl.innerText  +  total
+    
 
   }
 
